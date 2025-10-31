@@ -21,6 +21,8 @@ public class Etagere {
     Etagere(String domaineLivre, int capMax) {
         Domaine = domaineLivre;
         CapaciteMax = capMax;
+        Code = CountCode;
+        CountCode++;
     }
     
     Etagere(String domaineLivre, int capMax, int codeL){
