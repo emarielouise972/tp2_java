@@ -23,6 +23,16 @@ public class Etagere {
         CapaciteMax = capMax;
     }
     
+    Etagere(String domaineLivre, int capMax, int codeL){
+        Domaine = domaineLivre;
+        CapaciteMax = capMax;
+        // il est supossé que l'utilisateur ne rentre pas de code déjà existant
+        Code = codeL;
+        if(CountCode < codeL){
+            CountCode = codeL+1;
+        }
+    }
+    
     public void ajouterLivre(Livre livre){
         Livres.add(livre);
     }
