@@ -79,5 +79,6 @@ public class BibliothequeTest {
         // Ré-affichage après suppression
         System.out.println("== Après suppression ==");
         etagere.afficherLivres();
+
     }
 }
