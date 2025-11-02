@@ -8,13 +8,13 @@ package tp2;
  *
  * @author jerem
  */
+
 public class TP2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
     }
     
 }
